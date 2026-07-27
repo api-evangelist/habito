@@ -1,8 +1,24 @@
 aid: habito
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/habito.png
 name: Habito
-description: 'Habito is a company surfaced as a portfolio company of ribbit-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Habito is a UK-based digital mortgage broker that lets people research, compare, and apply
+  for mortgages online across the whole of the market, pairing self-serve digital tools with human mortgage
+  experts, alongside related home-buying services. Founded as a fintech in the consumer lending and real-estate
+  space and backed by Ribbit Capital, Habito has since joined Monzo. The company operates a consumer web
+  product (Webflow-hosted marketing site) and does not publish a public developer API program, developer
+  portal, or OpenAPI at the time of this profile; this record is maintained by the API Evangelist network
+  and reflects only publicly verifiable surfaces.'
 url: https://raw.githubusercontent.com/api-evangelist/habito/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Fintech
+- Mortgages
+- Lending
+- Financial Services
+- Real Estate
+- Home Buying
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/habito-domain-security.yml
 - type: Website
   url: https://www.habito.com
+- type: Blog
+  url: https://www.habito.com/blog
+- type: TermsOfService
+  url: https://www.habito.com/terms
+- type: PrivacyPolicy
+  url: https://www.habito.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
