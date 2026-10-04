@@ -45,8 +45,8 @@ tags:
 - Fintech
 - Mortgage
 - Lending
-- Financial-Services
-- Real-Estate
+- Financial Services
+- Real Estate
 - Home Buying
 - United Kingdom
 tags_raw:
@@ -58,6 +58,8 @@ tags_raw:
 - Real Estate
 - Home Buying
 - United Kingdom
+- Financial-Services
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
